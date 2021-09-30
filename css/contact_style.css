@@ -1,0 +1,72 @@
+.contact_sec{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    background-color: #263238;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contcat-form{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.message{
+    height: 200px !important;
+}
+
+.breadcrumb{
+    margin-top: 30px;
+}
+
+.contcat-form button{
+    margin-top: 15px;
+}
+
+.form-control:focus{
+    border-color: red;
+    box-shadow: inset 0 1px 1px red, 0 0 8px red;
+}
+@media (max-width: 576px) {
+    .contact_sec{
+        background-color: transparent;
+    }
+    .contact-image{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 500px;
+        background-color: #000;
+        opacity: 0.8;
+        position: relative;
+        margin-top: 30px;
+    }
+    .contcat-form{
+        position: absolute;
+        top: 270px;
+        left: 0;
+        z-index: 5;
+        text-align: center;
+        border: none;
+        z-index: 5;
+    }
+    
+    .contact_sec h3{
+        font-size: 1.5em;
+    }
+    .form-control{
+        background-color: transparent;
+    }
+    .form-control:focus{
+        background-color: transparent;
+        color: aliceblue;
+    }
+    .contcat-form button{
+        width: 50%;
+    }
+}
+
+.contact-image{
+    background-image: url(..//assets/shoopping.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

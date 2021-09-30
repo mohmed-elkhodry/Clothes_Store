@@ -1,0 +1,92 @@
+body{
+    height: 5000px;
+}
+footer{
+    margin-top: 1000px;
+}
+.controllers{
+    position: fixed;
+    margin-left: 2px;
+}
+
+.controllers button{
+    display: block;
+    margin: auto;
+}
+.controllers button:focus , :hover{
+    outline: none !important;
+}
+
+.mixitup-control-active{
+    padding: 8px 40px !important;
+    background-color: transparent !important;
+    color: #E53935 !important;
+    border: 2px solid #E53935 !important;
+    outline: none !omportant;
+}
+
+.products_items img{
+    background-color: #1c1a1b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.mix{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mix div{
+    width: 250px;
+    background-color: #655b50;
+    width: 250px;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.mix div p{
+    background-color: #1c1a1b;
+    padding: 11px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4em;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50%;
+}
+.mix div h6{
+    display: inline-block;
+    font-size: 1.1em;
+}
+.mix div p:hover{
+    background-color: #ffe2c7;
+    color:#000;
+    cursor: pointer;
+}
+
+.rating{
+    width: auto !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    display: flex !important;
+}
+.mix div span{
+    background-color: #1c1a1b;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out; 
+}
+
+.mix div span:hover{
+    background-color: #ffe2c7;
+    color:#000;
+    cursor: pointer;
+}
+.mix div span i{
+    margin: 0px;
+    padding: 0px;
+    color: inherit;
+}
+
+

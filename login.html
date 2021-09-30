@@ -1,0 +1,104 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--     meta for IE compitability     -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <!--     meta for mobile compitability   -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Login / Register</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/login-style.css" rel="stylesheet">
+        <link href="css/main_style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Clothe's <span class="main-color">Shop</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Catagories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Men</a>
+                  <a class="dropdown-item" href="#">Shoes</a>
+                  <a class="dropdown-item" href="#">Watches</a>
+                  <a class="dropdown-item" href="#">Acessories</a>   
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 nav-form">
+                <i class="fas fa-search fa-lg main-color"></i>
+                <a href="cart.html"><i class="fas fa-shopping-cart fa-lg main-color"><div class="number badge"> 9 </div>
+                </i></a>
+                <div class="logging"><i class="fas fa-user main-color fa-lg"></i></div>
+            </form>
+          </div>
+        </nav>            
+        <nav aria-label="breadcrumb" class="container">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Login</li>
+          </ol>
+        </nav>
+<!--------------------  end nav bar section     -----------        -->
+        
+
+<!--       start login form  -->
+        <div class="flip-container">
+            <div class="flipper" id="flipper">
+                <div class="front">
+                    <form class="login_form text-center">
+                       <h5><span class="main-color under-line">Member Login</span></h5>
+                        <input type="email" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <input type="submit" value="Sign In">
+                        <p>Don't have an account ?</p>
+                        <a class="main-color flipbutton" id="loginButton">Sign Up Now</a>
+                    </form>
+                </div>
+                <div class="back">
+                    <form class="login_form text-center">
+                       <h5><span class="main-color under-line">Sign Up !</span></h5>
+                        <input type="text" placeholder="Username">
+                        <input type="mail" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <input type="password" placeholder="Re-enter Your Password">
+                        <input type="submit" value="Sign Up">
+                        <p>Already have an acoount ?</p>
+                        <a class="main-color flipbutton" id="registerButton">Login Now</a>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+<!--        end login form   -->
+     
+        <footer class="text-center">
+            <p>All Copy Rights Reserved &copy; 2020 To <span class="main-color">Mohmed Elkhodry</span></p>
+        </footer> 
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/scripte_login.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
